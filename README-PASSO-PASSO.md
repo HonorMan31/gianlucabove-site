@@ -1,19 +1,15 @@
-# Guida rapida
+# Aggiornamento v7 - replica fedele del sito
 
-Questa versione è stata aggiornata per essere più fedele alla struttura del sito originario:
-- home con sezione "Il mio impegno"
-- "Chi sono" lasciata solo come pagina separata
-- sede unica: Via Crescenzio, 76
-- sezione blog mantenuta come aggiunta al sito
+Questa versione è stata ricostruita per essere molto più fedele al sito attuale, con sfondo bianco e struttura vicina all'originale.
 
-## Caricamento su GitHub
-1. Apri il repository GitHub.
-2. Clicca su Add file > Upload files.
-3. Trascina tutti i file e le cartelle contenuti in questa cartella.
-4. Conferma con Commit changes.
-5. Attendi la pubblicazione di GitHub Pages e aggiorna il browser.
+## Come caricarla su GitHub
+1. Estrai lo zip.
+2. Apri il repository GitHub del sito.
+3. Clicca `Add file` -> `Upload files`.
+4. Trascina dentro tutti i file e le cartelle contenuti nella cartella estratta.
+5. Conferma la sostituzione dei file già presenti.
+6. Clicca `Commit changes`.
+7. Attendi 1-3 minuti e aggiorna GitHub Pages.
 
-## Form contatti
-Nel file `index.html` il modulo usa ancora il placeholder Formspree:
-`https://formspree.io/f/INSERISCI_ID_FORM`
-Quando avrai l'ID del form, sostituisci quella stringa con l'endpoint reale.
+## Nota importante
+Il form è già presente ma va ancora collegato alla tua email sostituendo l'URL Formspree nel file `index.html`.
