@@ -1,26 +1,19 @@
-# Pacchetto sito – versione v5
+# Guida rapida
 
-Questa versione include:
-- revisione dei testi del sito
-- rimozione della sede di Roccasecca
-- mantenimento della sola sede di Roma: Via Crescenzio, 76
-- aggiornamento della pagina Responsabilità medica con taglio orientato alla tutela del paziente
-- pulizia di testi provvisori o troppo tecnici per la pubblicazione
+Questa versione è stata aggiornata per essere più fedele alla struttura del sito originario:
+- home con sezione "Il mio impegno"
+- "Chi sono" lasciata solo come pagina separata
+- sede unica: Via Crescenzio, 76
+- sezione blog mantenuta come aggiunta al sito
 
-## Come aggiornare il sito su GitHub
-1. Estrai questo pacchetto sul computer.
-2. Apri il repository GitHub del sito.
-3. Fai **Add file → Upload files**.
-4. Trascina dentro tutti i file e le cartelle di questa cartella.
-5. Conferma la sostituzione dei file esistenti.
-6. Clicca **Commit changes**.
-7. Attendi 1-3 minuti e aggiorna il sito.
+## Caricamento su GitHub
+1. Apri il repository GitHub.
+2. Clicca su Add file > Upload files.
+3. Trascina tutti i file e le cartelle contenuti in questa cartella.
+4. Conferma con Commit changes.
+5. Attendi la pubblicazione di GitHub Pages e aggiorna il browser.
 
 ## Form contatti
-Il modulo è predisposto per Formspree.
-Prima della pubblicazione definitiva, sostituisci nel file `index.html` il valore:
+Nel file `index.html` il modulo usa ancora il placeholder Formspree:
 `https://formspree.io/f/INSERISCI_ID_FORM`
-con l’URL reale del tuo form.
-
-## Nota pratica
-Se il browser continua a mostrare una versione precedente del sito, fai un refresh forzato della pagina.
+Quando avrai l'ID del form, sostituisci quella stringa con l'endpoint reale.
